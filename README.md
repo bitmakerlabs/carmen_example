@@ -1,4 +1,6 @@
-W4D1 - Sintra 
+W4D1 - Sinatra 
+==============
+
 A very basic sinatra app using the Carmen to display a list of countries.
 
 Note: Please install Sinatra and Carmen gems
