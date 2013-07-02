@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>Carmen App - WHAT!</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1>Countries</h1>
+  <ul>
+    <% @countries.each do |country| %>
+      <li><a href="/countries/<%= country.code %>"><%= country.name %></a></li>
+    <% end %>
+  </ul>
+</body>
+</html>
