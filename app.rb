@@ -2,6 +2,11 @@ require 'sinatra'
 require 'carmen'
 
 # INDEX
+
+get '/' do 
+  redirect '/countries'
+end
+
 get '/countries' do
   @countries = Carmen::Country.all
   erb :index
